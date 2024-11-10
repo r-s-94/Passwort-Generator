@@ -181,7 +181,7 @@ function App() {
     alert(`Das Passwort heißt: ${hackPasswordArray.join("")}`);
   }
 
-  let testPassword2: string = "";
+  //let testPassword2: string = "";
   let testPasswordArray: string[] = ["test"];
 
   function addPassword() {
