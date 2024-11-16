@@ -36,6 +36,12 @@
   background-color: #f5f5f5;
 }
 
+span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 input {
   text-align: center;
   width: 13rem;
@@ -54,6 +60,10 @@ input {
 }
 
 .special-sign {
+}
+
+.star-sign {
+  width: 2rem;
 }
 
 .lock-sign {
@@ -114,6 +124,10 @@ input {
   align-items: center;
 }
 
+.star-sign {
+  width: 4rem;
+}
+
 .background-svg {
   width: 4rem;
 }
@@ -143,9 +157,14 @@ input {
 
   .password-generator-headline {
     font-size: 2rem;
-    margin: 5rem auto 0 auto;
+    margin: 7rem auto 0 auto;
     width: 95%;
     max-width: 35rem;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 2.6rem;
   }
 
   .password-generator-main-div {
@@ -154,7 +173,7 @@ input {
     width: 95%;
     max-width: 80rem;
     column-gap: 3rem;
-    margin: 3rem auto 0 auto;
+    margin: 5rem auto 0 auto;
   }
 
   .generally-password-div,
@@ -194,11 +213,11 @@ input {
   }
 
   .background-img-div {
-    font-size: 2.4rem;
+    margin-top: 3rem;
   }
 
   .background-svg {
-    width: 2.5rem;
+    width: 2.6rem;
   }
 }
 
@@ -218,9 +237,14 @@ input {
 
   .password-generator-headline {
     font-size: 2rem;
-    margin: 5rem auto 0 auto;
+    margin: 7rem auto 0 auto;
     width: 95%;
     max-width: 35rem;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 2.2rem;
   }
 
   .password-generator-main-div {
@@ -269,11 +293,11 @@ input {
   }
 
   .background-img-div {
-    font-size: 2.4rem;
+    margin-top: 3rem;
   }
 
   .background-svg {
-    width: 2.5rem;
+    width: 2.2rem;
   }
 }
 
@@ -293,9 +317,14 @@ input {
 
   .password-generator-headline {
     font-size: 2rem;
-    margin: 3rem auto 0 auto;
+    margin: 5rem auto 0 auto;
     width: 95%;
     max-width: 35rem;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 2rem;
   }
 
   .password-generator-main-div {
@@ -344,11 +373,11 @@ input {
   }
 
   .background-img-div {
-    font-size: 2.2rem;
+    margin-top: 3rem;
   }
 
   .background-svg {
-    width: 2.3rem;
+    width: 2rem;
   }
 }
 
@@ -371,6 +400,11 @@ input {
     margin: 3rem auto 0 auto;
     width: 95%;
     max-width: 35rem;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 1.8rem;
   }
 
   .password-generator-main-div {
@@ -419,11 +453,10 @@ input {
   }
 
   .background-img-div {
-    font-size: 2.2rem;
   }
 
   .background-svg {
-    width: 2.3rem;
+    width: 1.8rem;
   }
 }
 
@@ -431,7 +464,7 @@ input {
   .windows-pop-up-message-div {
     width: 90%;
     height: 10rem;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.3rem;
     font-size: 1.3rem;
     row-gap: 1rem;
   }
@@ -445,6 +478,11 @@ input {
     margin: 3rem auto 0 auto;
     width: 95%;
     max-width: 25rem;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 1.6rem;
   }
 
   .password-generator-main-div {
@@ -495,11 +533,10 @@ input {
   }
 
   .background-img-div {
-    font-size: 2rem;
   }
 
   .background-svg {
-    width: 2.1rem;
+    width: 1.6rem;
   }
 }
 
@@ -520,6 +557,11 @@ input {
     font-size: 1.4rem;
     margin: 1rem auto 0 auto;
     width: 95%;
+  }
+
+  .star-sign,
+  .lock-sign {
+    width: 1.4rem;
   }
 
   .password-generator-main-div {
@@ -565,10 +607,9 @@ input {
   }
 
   .background-img-div {
-    font-size: 1.7rem;
   }
 
   .background-svg {
-    width: 1.8rem;
+    width: 1.4rem;
   }
 }

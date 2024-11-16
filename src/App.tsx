@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import StarSignComponent from "./starSign";
 
 function App() {
   const [showNewPassword, setShowNewPassword] = useState<string>("Ausgabe");
@@ -175,7 +176,15 @@ function App() {
       <h1 className="password-generator-headline">
         Passwortgenerator <br />{" "}
         <span className="special-sign">
-          &#128948; &#128948; &#128948; &#128948; &#128948; &#128948;
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+          <StarSignComponent />
+
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
@@ -238,7 +247,15 @@ function App() {
       </div>
 
       <div className="background-img-div">
-        &#128948; &#128948; &#128948; &#128948; &#128948; &#128948;
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+        <StarSignComponent />
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
