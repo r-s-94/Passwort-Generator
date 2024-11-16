@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(#c0c0c0, white, white, #c0c0c0);
+  height: 100vh;
+  z-index: 0;
 }
